@@ -25,6 +25,7 @@ public class DisplayMessageActivity extends AppCompatActivity {//ActionBarActivi
 
         // Set the text view as the activity layout
         setContentView(textView);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
@@ -34,11 +35,28 @@ public class DisplayMessageActivity extends AppCompatActivity {//ActionBarActivi
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        switch (id) {
+
+
+            case R.id.action_search:
+                openSearch();
+                return true;
+            case R.id.action_settings:
+                openSettings();
+                return true;
+
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void openSearch()
+    {
+        //TODO
+    }
+
+    private void openSettings()
+    {
+        //TODO
     }
 }
