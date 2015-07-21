@@ -7,7 +7,7 @@
 
     <!-- ActionBar styles -->
     <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
-        <item name="background">@color/actionbarBackgroundColor</item>
+        <item name="background">@drawable/ic_actionbar_background_flowers</item>
         <item name="titleTextStyle">@style/MyActionBarTitleText</item>
     </style>
     <!-- ActionBar title text -->
