@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="actionbarBackgroundColor" type="color">#ffe59e4c</item>
+    <item name="actionbarBackgroundColor" type="color">#5ded790f</item>
     <item name="actionBarTitleText" type="color">#fffefff9</item>
 </resources>
